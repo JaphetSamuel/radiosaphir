@@ -1,0 +1,38 @@
+name: radiosaphir
+description: Radio Saphir
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get:
+  velocity_x:
+  carousel_slider:
+  google_fonts:
+  assets_audio_player:
+  flutter_launcher_icons:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo1.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+

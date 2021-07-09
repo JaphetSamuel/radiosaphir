@@ -1,0 +1,1 @@
+﻿$("#form-pardot-whitepaper1").css("display","none");typeof $("#pardotPDF").val()!="undefined"&&($("#form-pardot-whitepaper1 #success_location").val($("#pardotPDF").attr("href")),$("#form-pardot-whitepaper1").css("display","block"))

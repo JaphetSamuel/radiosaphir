@@ -1,0 +1,1 @@
+﻿setTimeout(function(){$(".v-md").removeClass("active");$($(".page-active").filter(function(n,t){return $(t).attr("href")==location.pathname})[0]).parent().addClass("active")},280)
